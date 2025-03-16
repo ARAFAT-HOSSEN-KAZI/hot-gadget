@@ -1,11 +1,18 @@
-.navbar-nav{
-
-}
 .navbar{
     background-color: white;
 }
 .nav-link{
     display: flex;
     justify-content: space-between;
-    color: red;
+}
+body{
+    background-image: url("image/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: 50px 500px;
+}
+.banner{
+    width: auto;
+}
+.banner{
+    padding-top: 100px;
 }
