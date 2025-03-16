@@ -1,5 +1,6 @@
 .navbar{
     background-color: white;
+    padding: 40px;
 }
 .nav-link{
     display: flex;
@@ -9,10 +10,58 @@ body{
     background-image: url("image/bg-2.png");
     background-repeat: no-repeat;
     background-position: 50px 500px;
+    
 }
 .banner{
     width: auto;
 }
-.banner{
-    padding-top: 100px;
+
+.carousel-inner{
+    background-image: url("image/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-left{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.banner-left {
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+}
+.buy-now{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.banner-left button{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.card{
+    border: none;
+    box-shadow: 0px 0px 20px lightgray;
+    padding: 40px;
+    border-radius: 10px;
+}
+.card img{
+    padding: 50px;
+}
+.phone-card, .laptop-card{
+    margin-top: 50px;
+    border: none;
+    padding: 40px;
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
