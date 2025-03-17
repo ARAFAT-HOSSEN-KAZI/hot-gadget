@@ -20,9 +20,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav d-flex justify-content-around">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Products</a>
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#products">Products</a>
+                    <a class="nav-link" href="#about_us">About Us</a>
                     <a class="nav-link" href="#">Contact Us</a>
                 </div>
                 </div>
@@ -30,7 +30,7 @@
         </nav>
     </div>
 
-    <section class="container banner">
+    <section class="container banner" id="home">
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -44,7 +44,7 @@
                                 <div>
                                     <h1>Mackbook pro</h1>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus id explicabo, deserunt nobis minima ea pariatur cum beatae voluptatibus ipsa!</p>
-                                    <button class="buy-now">BUY NOW →</button>
+                                    <a href="#mackbook"><button class="buy-now">BUY NOW →</button></a>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -94,7 +94,7 @@
     </section>
 
     <article class="container phone-card">
-        <div class="card-head d-flex justify-content-between">
+        <div class="card-head d-flex justify-content-between" id="products">
             <h2>Smart Phone</h2>
             <h5>See All</h5>
         </div>
@@ -132,7 +132,7 @@
           </div>
     </article>
 
-    <article class="container laptop-card">
+    <article class="container laptop-card" id="mackbook">
         <div class="card-head d-flex justify-content-between">
             <h2>MackBook</h2>
             <h5>See All</h5>
@@ -172,7 +172,7 @@
     </article>
 
 
-    <section class="container">
+    <section class="container" id="about_us">
       <div align="center">
         <h2>Categories</h2>
         <div class="line"></div>
