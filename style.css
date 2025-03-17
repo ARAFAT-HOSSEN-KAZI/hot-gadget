@@ -59,9 +59,89 @@ body{
     padding: 40px;
     
 }
+.card-head h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: darkorange;
+    /* margin: 0px 20px 0px 20px; */
+}
 .card-body{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.catergories-left{
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    align-items: center; /* Centers vertically */
+}
+.catergories-right img{
+    width: 100%;
+    height: 100%;
+}
+.catergories-right{
+    display: flex;
+    align-items: center;
+}
+.catergories{
+    display: flex;
+    justify-content: space-around;
+    padding-top: none;
+    padding-bottom: none;
+}
+.left-half{
+    display: flex;
+    width: 36%;
+    /* height: 30%; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 10px 5px 30px;
+    box-shadow: 0px 0px 10px lightgray;
+    margin-right: 10%;
+    padding: 10%;
+}
+.left-half p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: none;
+}
+.left-half img{
+    width: 100%;
+}
+.right-half{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.right-half div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px 5px 40px 5px;
+    box-shadow: 0px 0px 10px lightgray;
+    margin: 10%;
+    padding: 25%;
+}
+.right-half img{
+    width: 100%;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    width: 90px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    margin-top: 15px;
+    background: linear-gradient(to right, gold, darkorange);
 }
